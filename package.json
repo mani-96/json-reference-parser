@@ -1,0 +1,23 @@
+{
+  "name": "json-reference-parser",
+  "version": "0.0.2",
+  "description": "A parser to dereference references given in json",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "dereference",
+    "json-reference-parser",
+    "reference-parser"
+  ],
+  "author": "Manish Sharma",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1"
+  }
+}
